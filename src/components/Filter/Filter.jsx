@@ -6,7 +6,7 @@ const Filter = ({onFilter, filter}) => {
     <label>
       Find contacts by name
       <br/> 
-      <input type="text" value={filter} onChange={onFilter} />
+      <input type="text" name="filter" value={filter} onChange={onFilter} />
     </label>
   );
 };
